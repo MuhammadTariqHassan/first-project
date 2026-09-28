@@ -1055,23 +1055,11 @@ nav #nav-content {
 #work #img-gallery {
     margin-top: 24px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    gap: 15px;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: auto;
-    grid-auto-flow: dense;
-    justify-content: center;
-    align-items: start; */
-    /* columns: 350px;
-    column-gap: 20px; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
 }
 
-/* #work #img-gallery #nature,
-#work #img-gallery #car,
-#work #img-gallery #product-review {
-    grid-column: span 2;
-} */
+
 
 
 
@@ -1817,6 +1805,7 @@ footer #footer-btm {
 
     #work #img-gallery {
         gap: 12px;
+        grid-template-columns: 1fr;
     }
 
     /* #work #img-gallery #nature,
